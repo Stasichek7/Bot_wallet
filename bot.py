@@ -15,7 +15,6 @@ logging.basicConfig(
     format='%(asctime)s - %(name)s - %(levelname)s - %(message)s',  # Формат повідомлень логування
     level=logging.INFO,  # Рівень логування: INFO
     handlers=[  # Список обробників
-        logging.FileHandler('bot.log'),  # Логування в файл
         logging.StreamHandler()  # Логування в консоль
     ]
 )
